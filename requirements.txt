@@ -1,0 +1,14 @@
+# Runtime dependencies. Minimum versions are those this project was tested with.
+openai>=3.19.2
+azure-identity>=1.25.3
+azure-ai-projects>=2.7.0
+azure-search-documents>=12.0.0
+azure-ai-contentsafety>=1.0.0
+azure-ai-evaluation>=1.18.7
+azure-monitor-opentelemetry>=1.8.2
+opentelemetry-api>=1.45.0
+opentelemetry-sdk>=1.45.0
+fastapi>=0.141.1
+uvicorn>=0.54.0
+pydantic>=2.13.5
+python-dotenv>=1.2.3

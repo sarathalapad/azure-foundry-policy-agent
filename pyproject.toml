@@ -1,0 +1,20 @@
+[project]
+name = "azure-foundry-policy-agent"
+version = "0.1.0"
+description = "Grounded government-policy Q&A agent on Azure AI Foundry, with a fully offline mode."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sarathkumar K" }]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001"]
